@@ -49,8 +49,9 @@
             event.preventDefault(); // Prevents the default form submission (stops redirect)
 
             let formData = new FormData(this); // Get form data
-
-            fetch("https://formsubmit.co/ajax/comeemail0@gmail.com", {
+            // action="https://formsubmit.co/comeemail0@gmail.com" method="POST">
+             // fetch("https://formsubmit.co/ajax/comeemail0@gmail.com", {
+            fetch("https://formsubmit.co/comeemail0@gmail.com", {
                 method: "POST",
                 body: formData
             })
